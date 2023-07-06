@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Day 07 - Stop Watch</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>Day 07 - 100 Days of Code Challenge</h1>
+      <div class="stop-watch">
+        <h2>Stop Watch</h2>
+        <div class="container">
+          <div class="time">
+            <div class="time-box">
+              <span id="minutes">00 :</span>
+              <h2>mins</h2>
+            </div>
+            <div class="time-box">
+              <span id="seconds">00 :</span>
+              <h2>secs</h2>
+            </div>
+            <div class="time-box">
+              <span id="milli-sec">00 :</span>
+              <h2>ms</h2>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <button id="start"><i class="fa-solid fa-play"></i></button
+            ><button id="stop"><i class="fa-solid fa-circle-stop"></i></button
+            ><button id="lap"><i class="fa-solid fa-flag"></i></button
+            ><button id="reset"><i class="fa-solid fa-rotate-left"></i></button>
+          </div>
+
+          <ul id="lap-container"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
